@@ -1,0 +1,24 @@
+{
+  "name": "shucream0117/btcphp",
+  "description": "Bitcoin library for PHP",
+  "keywords": ["bitcoin", "litecoin", "monacoin"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shucream0117"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shucream0117\\Bitcoin\\": "src/"
+    }
+  }
+}
