@@ -1,10 +1,13 @@
 # btcphp
 
+Bitcoin(Litecoin, Monacoin) library for PHP. 
+
 ## Requirement
 
 - PHP ≧ 7.1
 
 ## Installation
+
 via composer.
 
 ```console
