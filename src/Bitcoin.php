@@ -5,7 +5,7 @@ namespace Shucream0117\Bitcoin;
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
 
-class Bitcoin
+class Bitcoin implements BitcoinJsonRpcClientInterface
 {
     /** @var string */
     protected $user;
